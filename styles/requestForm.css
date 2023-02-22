@@ -1,0 +1,78 @@
+.error {
+	font-size: 20px;
+}
+
+main.forms {
+	position: relative;
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+fieldset{
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: white;
+  padding: 15px 25px;
+  margin-top: 80px;
+  font-family: Arial, Sans-Serif;
+}
+
+h2.form-header {
+	font-size: 32px;
+	text-align: center;
+	margin: 10px;
+}
+
+form.request-form label {
+	display: block;
+	margin-top: 25px;
+	font-size: 28px;
+}
+
+form.request-form input {
+	display: block;
+	font-size: 20px;
+	padding: 0px;
+	width: 100%;
+}
+
+form.request-form button {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	font-size: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 0px;
+	border-color: Black;
+	background-color: Lavender;
+	color: Black;
+	font-family: Arial, Sans-Serif;
+}
+
+form.request-form button:hover {
+	background-color: DarkGreen;
+	color: white;
+}
+
+form.request-form button.inline {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+form.request-form section.wrapper {
+	margin: auto;
+	text-align: center;
+}
+
+form.request-form h3.message {
+	text-align: center;
+	font-size: 30px;
+}

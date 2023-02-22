@@ -1,0 +1,60 @@
+@import "errors.css";
+@import "main.css";
+
+main.forms {
+	position: relative;
+	width: 500px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+fieldset{
+	border-style: solid;
+	border-color: green;
+	border-radius: 15px;
+	border-width: 3px;
+	background-color: white;
+	padding: 15px 25px;
+	font-family: Arial, Sans-Serif;
+}
+
+h2.form-header {
+	font-size: 40px;
+	text-align: center;
+	margin: 10px;
+}
+
+form.auth-form label {
+	display: block;
+	margin-top: 25px;
+	font-size: 32px;
+}
+
+form.auth-form input {
+	display: block;
+	font-size: 28px;
+	padding: 0px;
+	width: 100%;
+}
+
+form.auth-form button {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	font-size: 36px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: DarkGreen;
+	background-color: Lavender;
+	color: DarkGreen;
+	font-family: Arial, Sans-Serif;
+}
+
+form.auth-form button:hover {
+	background-color: DarkGreen;
+	color: white;
+}

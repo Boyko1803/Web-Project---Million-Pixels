@@ -1,0 +1,9 @@
+.required {
+	color: red;
+}
+
+.error {
+	display: block;
+	color: red;
+	font-size: 24px;
+}

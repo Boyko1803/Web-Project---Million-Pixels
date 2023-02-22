@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="bg">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Вход</title>
+		<script defer src="../utilities/sendRequest.js?version=10"></script>
+		<script defer src="./login.js?version=10"></script>
+		<link rel="stylesheet" href="../../styles/authForm.css">
+    </head>
+    <body>
+		<main class="forms">
+			<fieldset>
+				<h2 class="form-header">Вход</h2>
+				<form id="login-form" class="auth-form">
+					<label for="fn">Факултетен номер</label>
+					<input type="text" id="fn" name="fn"/> <span id="fn_error" class="error"></span>
+					
+					<label for="password">Парола</label>
+					<input type="password" id="password" name="password"/> <span id="password_error" class="error"></span>
+					
+					<button id="login"> Вход </button>
+					<span id="general_error" class="error"></span>
+				</form>
+			</fieldset>
+		</main>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+main.pictureContainer {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+figure.mainframe {
+	position: relative;
+	margin: auto;
+	width: 1200px;
+}
+
+figure.mainframe img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0px;
+	margin: 50px 100px;
+}
+
+img#main-picture {
+	position: static;
+	z-index: 0;
+}
+
+img#placeholder {
+	padding: 0px;
+	z-index: 1;
+}
+
+div#placeholder {
+	position: absolute;
+	pointer-events: none;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	margin: 50px 100px;
+	z-index: 1;
+}
+
+img#overlay-picture {
+	z-index: 3;
+}
+
+img#grid-picture {
+	z-index: 4;
+	cursor: pointer;
+}
+
+map#link-map {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 2;
+}

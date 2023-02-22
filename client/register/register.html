@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="bg">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Регистрация</title>
+		<script defer src="../utilities/sendRequest.js?version=10"></script>
+		<script defer src="./register.js?version=10"></script>
+		<link rel="stylesheet" href="../../styles/authForm.css">
+    </head>
+    <body>
+		<main class="forms">
+			<fieldset>
+				<h2 class="form-header">Регистрация</h2>
+				<form id="register-form" class="auth-form">
+					<label for="fn">Факултетен номер<span class="required">*</span></label>
+					<input type="text" id="fn" name="fn"/> <span id="fn_error" class="error"></span>
+					
+					<label for="name">Име<span class="required">*</span></label>
+					<input type="text" id="name" name="name"/> <span id="name_error" class="error"></span>
+					
+					<label for="password">Парола<span class="required">*</span></label>
+					<input type="password" id="password" name="password"/> <span id="password_error" class="error"></span>
+					
+					<label for="confirm_password">Потвърди парола<span class="required">*</span></label>
+					<input type="password" id="confirm_password" name="confirm_password"/> <span id="confirm_password_error" class="error"></span>
+					
+					<label for="email">Имейл</label>
+					<input type="text" id="email" name="email"/>
+					
+					<button id="register"> Регистрация </button>
+					
+					<span id="general_error" class="error"></span>
+				</form>
+			</fieldset>
+		</main>
+    </body>
+</html>

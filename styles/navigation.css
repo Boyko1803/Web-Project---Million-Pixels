@@ -1,0 +1,32 @@
+@import "errors.css";
+@import "main.css";
+
+nav#navigation {
+	font-family: Arial, Sans-Serif;
+	margin: 0px;
+	width: 100%;
+	min-width: 1200px;
+	background-color: LightGreen;
+	font-size: 0px;
+	white-space: nowrap;
+}
+
+nav#navigation a {
+	display: inline-block;
+	font-size: 32px;
+	margin: 0px;
+	padding: 15px 30px;
+	color: black;
+	background-color: LightGreen;
+	text-decoration: none;
+}
+
+nav#navigation a:hover {
+	color: white;
+	background-color: YellowGreen;
+}
+
+nav#navigation a.active {
+	color: white;
+	background-color: Green;
+}
